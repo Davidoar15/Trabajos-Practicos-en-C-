@@ -3,6 +3,7 @@
 // el más frío. Sabiendo que la temperatura mínima de la tierra es de -90° Centígrados y la
 // máxima es de 60° Centígrados, se pide:
 // Haciendo uso de arreglos, hacer un programa en C++, que:
+
 // a. Calcule el promedio mensual de la temperatura.
 // b. La temperatura máxima y mínima registrada.
 
