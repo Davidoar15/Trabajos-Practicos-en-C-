@@ -108,19 +108,7 @@ int main()
         {0, 0, 0, 0, 0, 0, 8}, // Almacén E para Almacén F
         {0, 0, 0, 0, 0, 0, 0}  // Almacén F. (FINAL)
     };
-    /*
-        Como si fuera una matriz, cada Columna representa la capacidad de transporte que tiene
-        cada vértice a otro; y cada Fila representa al vértice o almacén correspondiente. Ejemplo:
-        {0, 5, 3, 1, 0, 0, 0} es el almacén I (inicio), que tiene tuberías de: capacidad 5 m³/horas hacia
-        almacén A, capacidad 3 m³/horas hacia almacén B y capacidad 1 m³/horas hacia almacén
-        C. Obviamente, tiene capacidad 0 para sí mismo y para los almacenes D, E y F, ya que no
-        existen tuberías entre ellos.
-        {0, 0, 0, 0, 3, 0, 0} A: tubería de capacidad 3 m³/horas hacia D.
-        {0, 0, 0, 0, 1, 3, 0} B: tuberías de: capacidad 1 m³/horas hacia D y capacidad 3 m³/horas hacia E.
-        {0, 0, 0, 0, 0, 3, 0} C: tubería de capacidad 3 m³/horas hacia E.
-        {0, 0, 0, 0, 0, 0, 3} D: tubería de capacidad 3 m³/horas hacia F (final).
-        {0, 0, 0, 0, 0, 0, 8} E: tubería de capacidad 8 m³/horas hacia F (final).
-    */
+
     cout << "La Maxima Cantidad de gas en F es: " << fordFulkerson(grafo, 0, 6) << "\n";
     cout << "\n";
     system("pause");
